@@ -1,0 +1,7 @@
+best_model:
+  model_path: C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\model_trainer\2022-07-17-00-09-44\trained_model\model.pkl
+history:
+  2022-07-11-16-30-15:
+    model_path: C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\model_trainer\2022-07-11-15-04-43\trained_model\model.pkl
+  2022-07-17-00-09-44:
+    model_path: C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\model_trainer\2022-07-11-16-30-15\trained_model\model.pkl
