@@ -1,0 +1,15 @@
+[2022-06-27 23:02:22,349] root - INFO - Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\HPr\\Documents\\project\\Ml_Projekt\\housing\\artifact')
+[2022-06-27 23:02:22,349] root - INFO - Data Ingestion config: DataIngestionConfig(dataset_download_url='https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz', tgz_download_dir='C:\\Users\\HPr\\Documents\\project\\Ml_Projekt\\housing\\artifact\\data_ingestion\\2022-06-27-23-02-16\\tgz_data', raw_data_dir='C:\\Users\\HPr\\Documents\\project\\Ml_Projekt\\housing\\artifact\\data_ingestion\\2022-06-27-23-02-16\\raw_data', ingested_train_dir='C:\\Users\\HPr\\Documents\\project\\Ml_Projekt\\housing\\artifact\\data_ingestion\\2022-06-27-23-02-16\\ingested_data\\train', ingested_test_dir='C:\\Users\\HPr\\Documents\\project\\Ml_Projekt\\housing\\artifact\\data_ingestion\\2022-06-27-23-02-16\\ingested_data\\test')
+[2022-06-27 23:02:22,352] root - INFO - ====================Data Ingestion log started.==================== 
+[2022-06-27 23:02:22,353] root - INFO - Downloading file from :[https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz] into :[C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\data_ingestion\2022-06-27-23-02-16\tgz_data\housing.tgz]
+[2022-06-27 23:02:24,048] root - INFO - File :[C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\data_ingestion\2022-06-27-23-02-16\tgz_data\housing.tgz] has been downloaded successfully.
+[2022-06-27 23:02:24,049] root - INFO - Extracting tgz file: [C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\data_ingestion\2022-06-27-23-02-16\tgz_data\housing.tgz] into dir: [C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\data_ingestion\2022-06-27-23-02-16\raw_data]
+[2022-06-27 23:02:24,091] root - INFO - Extraction completed
+[2022-06-27 23:02:24,092] root - INFO - Reading csv file: [C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\data_ingestion\2022-06-27-23-02-16\raw_data\housing.csv]
+[2022-06-27 23:02:24,212] root - INFO - Splitting data into train and test
+[2022-06-27 23:02:24,275] root - INFO - Exporting training datset to file: [C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\data_ingestion\2022-06-27-23-02-16\ingested_data\train\housing.csv]
+[2022-06-27 23:02:24,889] root - INFO - Exporting test dataset to file: [C:\Users\HPr\Documents\project\Ml_Projekt\housing\artifact\data_ingestion\2022-06-27-23-02-16\ingested_data\test\housing.csv]
+[2022-06-27 23:02:25,094] root - INFO - Data Ingestion artifact:[DataIngestionArtifact(train_file_path='C:\\Users\\HPr\\Documents\\project\\Ml_Projekt\\housing\\artifact\\data_ingestion\\2022-06-27-23-02-16\\ingested_data\\train\\housing.csv', test_file_path='C:\\Users\\HPr\\Documents\\project\\Ml_Projekt\\housing\\artifact\\data_ingestion\\2022-06-27-23-02-16\\ingested_data\\test\\housing.csv', is_ingested=True, message='Data ingestion completed successfully.')]
+[2022-06-27 23:02:25,095] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
